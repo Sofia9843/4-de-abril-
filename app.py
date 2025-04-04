@@ -18,8 +18,8 @@ elif year == 2023:
     tgp_F = gpd.read_parquet('mujeres23.parquet')
  
 else:
-    tgp_M = gpd.read_parquet('hombres.parquet')
-    tgp_F = gpd.read_parquet('mujeres.parquet')
+    tgp_M = gpd.read_parquet('hombres24.parquet')
+    tgp_F = gpd.read_parquet('mujeres24.parquet')
  
  
 fig, ax = plt.subplots(1, 2, figsize=(10, 4))
